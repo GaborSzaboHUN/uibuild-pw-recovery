@@ -1,0 +1,100 @@
+body {
+  background-color: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container h1 {
+  margin-bottom: 16px;
+  font-size: 36px;
+  font-weight: 300;
+  color: #006837;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  .container h1 {
+    font-size: 24px;
+  }
+}
+
+.container .content-box {
+  padding: 20px;
+  background-color: #f9c582;
+  color: #467745;
+  width: 520px;
+  line-height: 24px;
+}
+
+@media (max-width: 520px) {
+  .container .content-box {
+    width: 100vw;
+  }
+}
+
+.container .content-box p.security-describe {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container .content-box p.security-question {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.container .content-box input {
+  padding: 0 20px;
+  width: 100%;
+  height: 64px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #98a991;
+  background-color: white;
+}
+
+.container .content-box ::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  color: #98a991;
+}
+
+.container .content-box :-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  color: #98a991;
+}
+
+.container .content-box ::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  color: #98a991;
+}
+
+.container .content-box ::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  color: #98a991;
+}
+
+button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #f9c582;
+  font-size: 21px;
+  font-weight: 700;
+  color: #006837;
+}
+/*# sourceMappingURL=style.css.map */
